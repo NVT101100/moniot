@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438607618047",
+    "project_id": "iot-server-62a96",
+    "storage_bucket": "iot-server-62a96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438607618047:android:3275c296a68eea848911ca",
+        "android_client_info": {
+          "package_name": "com.example.moniot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438607618047-a37us1k4post7rns1jvthuh2facl85pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe0bEwodCqqVm9WFbTf5yFZC_UhmiPFDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438607618047-a37us1k4post7rns1jvthuh2facl85pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
