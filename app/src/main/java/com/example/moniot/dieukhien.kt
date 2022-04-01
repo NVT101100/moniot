@@ -80,5 +80,18 @@ class dieukhien : AppCompatActivity() {
             }
             else if(it == "0") findViewById<Switch>(R.id.tuoinuoccactang).isChecked = false
         })
+
+        findViewById<Switch>(R.id.tuoinuoctang1).setOnCheckedChangeListener { compoundButton, b ->
+            database.child("tuoinuoctang1").setValue(if(b) 1 else 0)
+        }
+        findViewById<Switch>(R.id.tuoinuoctang2).setOnCheckedChangeListener { compoundButton, b ->
+            database.child("tuoinuoctang2").setValue(if(b) 1 else 0)
+        }
+        findViewById<Switch>(R.id.tuoinuoctang3).setOnCheckedChangeListener { compoundButton, b ->
+            database.child("tuoinuoctang3").setValue(if(b) 1 else 0)
+        }
+        findViewById<Switch>(R.id.tuoinuoccactang).setOnCheckedChangeListener { compoundButton, b ->
+            database.child("tuoinuoccactang").setValue(if(b) 1 else 0)
+        }
     }
 }
